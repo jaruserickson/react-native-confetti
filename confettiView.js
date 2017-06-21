@@ -44,12 +44,12 @@ class ConfettiView extends Component {
          this.confettiIndex = 0;
        }
   }
-  
-  stopConfetti () 
+
+  stopConfettiAnimation ()
   {
     this.stopConfetti = true;
   }
-  
+
   render() {
        let {confettis} = this.state;
        let {...otherProps} = this.props

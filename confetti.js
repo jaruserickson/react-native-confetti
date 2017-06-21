@@ -57,18 +57,18 @@ class Confetti extends Component {
       let bigConfetti = {
         height: 5.5,
         width: 11,
-        borderBottomLeftRadius: 5,
-        borderBottomRightRadius: 5,
-        borderTopLeftRadius: 2.6,
-        borderTopRightRadius: 2.6
-      };
-      let smallConfetti = {
-        height: 4.5,
-        width: 8,
         borderBottomLeftRadius: 2.5,
         borderBottomRightRadius: 2.5,
         borderTopLeftRadius: 1.3,
         borderTopRightRadius: 1.3
+      };
+      let smallConfetti = {
+        height: 4.5,
+        width: 8,
+        borderBottomLeftRadius: 1.2,
+        borderBottomRightRadius: 1.2,
+        borderTopLeftRadius: 0.6,
+        borderTopRightRadius: 0.6
       }
       return index % 5 === 0 ? smallConfetti : bigConfetti;
   }
